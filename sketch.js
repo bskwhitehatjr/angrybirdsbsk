@@ -55,7 +55,7 @@ function draw(){
         textSize(35)
         fill("black")
         text("Score  " + score, width-300, 50)
-        text(mouseX+":"+mouseY,mouseX,mouseY);
+        //text(mouseX+":"+mouseY,mouseX,mouseY);
     
     Engine.update(engine);
     //strokeWeight(4);
